@@ -1,0 +1,87 @@
+th:hover{
+    color: purple;
+    box-shadow: white 1px 2px;
+}
+th{
+    align-items: center;
+}
+header{
+    height: 100px;
+    weight: 600px;
+    background-color: black;
+    color: white;
+    font-size: 56px;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    text-align: center;
+}
+footer{
+    height: 100px;
+    weight: 600px;
+    background-color: black;
+    color: white;
+    font-size: 56px;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    border: white 2px dotted;
+    text-align: center;
+}
+.yellow{
+    background-color: yellow;
+    height: 600px;
+    width: 400px;
+}
+.black{
+    height: 600px;
+    width: 1500px;
+    background-color: black;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.img{
+    height: 400px;
+    width: 1500px;
+    background-color: blanchedalmond;
+    opacity: 80%;
+    color:blanchedalmond;
+}
+.articles{
+    display: flex;
+    height: 200px;
+    width: 1500px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.block1{
+    background-color: blue;
+    height: 120px;
+    width: 120px;
+    margin-top: 35px;
+}
+.block2{
+    background-color: red;
+    height: 120px;
+    width: 120px;
+    margin-top: 35px;
+}
+.block3{
+    background-color: green;
+    height: 120px;
+    width: 120px;
+    margin-top: 35px;
+}
+.block1:hover{
+    box-shadow: red 3px 3px;
+}
+.block2:hover{
+    box-shadow: green 3px 3px;
+}
+.block3:hover{
+    box-shadow: blue 3px 3px;
+}
+.img:hover{
+    background: brown;
+    color: white;
+}
